@@ -1,0 +1,52 @@
+/* start section header */
+
+.loginheader
+{
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* end section header */
+
+/* start section login */
+
+
+.login
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h4
+    {
+        
+    }
+    .form-login
+    {
+        margin-bottom: 50px;
+        input
+        {
+            &[type="submit"]
+            {
+                background-color: $mainColor;
+                color: #FFF;
+                font-weight: bold;
+                width: 200px;
+            }
+        }
+    }
+    
+    .create
+    {
+        button
+        {
+            background-color: $mainColor;
+            color: #FFF;
+            font-weight: bold;
+            width: 250px;
+        }
+    }
+}
+
+
+/* end section login */

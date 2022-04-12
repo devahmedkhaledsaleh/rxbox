@@ -1,0 +1,49 @@
+/* start section trackorder */
+
+.trackorder
+{
+    .info
+    {
+        text-align: center;
+        img
+        {
+            
+        }
+        h3
+        {
+            color: #303030;
+        }
+        .orderdate,.deliverynumber,.ordernumber
+        {
+            display: flex;
+            justify-content: center;
+            h5
+            {
+                margin-right: 40px;
+                color: #707070;
+            }
+            p
+            {
+                font-weight: bold;
+                color: $mainColor;
+            }
+        }
+        span
+        {
+            font-weight: bold;
+            color: #88c240;
+        }
+        button
+        {
+            margin-top: 20px;
+            background-color: #88c240;
+            color: #FFF;
+            font-weight: bold;
+            height: 78px;
+            border: 0;
+        }
+    }
+}
+
+
+/* end section trackorder */

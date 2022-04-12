@@ -1,0 +1,163 @@
+/* start section header */
+
+.aboutheader
+{
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* end section header */
+
+/* start section about us */
+
+.about
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    .info
+    {
+        h3
+        {
+            color: $mainColor;
+        }
+        span
+        {
+            color: $mainColor;
+        }
+        p
+        {
+            font-weight: bold;
+            color: #8b8b8b;
+        }
+        ul
+        {
+            li
+            {
+                font-weight: bold;
+                color: #8b8b8b;
+                margin-bottom: 20px;
+                &:last-of-type
+                {
+                    margin-bottom: 0;
+                }
+                i
+                {
+                    font-size: 29px;
+                    color: $mainColor;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+/* end section about us */
+
+/* start section services */
+
+.servicesabout
+{
+    background-image: url('../images/about/Services_Background.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    .overlay
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .serviceabout
+    {
+        margin-bottom: 30px;
+        .shape
+        {
+            border: 6px solid #FFF;
+            display: inline-block;
+            padding: 20px;
+            transform: rotate(45deg);
+            margin-bottom: 30px;
+            i
+            {
+                transform: rotate(-45deg);
+                color: $mainColor;
+            }
+        }
+        h4
+        {
+            color: #FFF;
+        }
+        p
+        {
+            color: #FFF;
+            line-height: 1.7;
+        }
+    }
+}
+
+
+/* end section services */
+
+/* start section contact */
+
+.contactabout
+{
+    background-color: #f5f5f5;
+    .map
+    {
+        div
+        {
+            max-width: 100%;
+        }
+    }
+    
+    .form
+    {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        h3
+        {
+            
+        }
+        
+        form
+        {
+            margin-top: 50px;
+            input
+            {
+                &[type="text"],&[type="email"]
+                {
+                    
+                }
+                &[type="submit"]
+                {
+                    background-color: $mainColor;
+                    color: #FFF;
+                    width: 150px;
+                    height: 70px;
+                    border-radius: 10px;
+                }
+            }
+            
+            textarea
+            {
+                height: 200px;
+            }
+            
+        }
+    }
+}
+
+/* end section contact */

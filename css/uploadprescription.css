@@ -1,0 +1,622 @@
+/* start section topbar */
+* {
+  box-sizing: border-box;
+}
+
+.topbar {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+@media (max-width: 575.98px) {
+  .topbar .logo {
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .topbar .logo {
+    text-align: center;
+  }
+}
+.topbar .search form div i {
+  position: absolute;
+  color: #6c757d;
+  font-size: 22px;
+  line-height: 60px;
+  padding-left: 10px;
+}
+.topbar .search form div input {
+  height: 60px;
+  border-radius: 0px;
+  border-width: 2px;
+  padding-left: 40px;
+}
+.topbar .search form div input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #e65d25;
+  box-shadow: none;
+}
+.topbar .ads {
+  display: flex;
+}
+.topbar .ads .info {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.topbar .ads .info h4 {
+  color: #e65d25;
+}
+.topbar .ads .info p span {
+  color: #e65d25;
+}
+
+/* end section topbar */
+/* start section navbar */
+.homeNavbar .allCategories {
+  background-color: #e65d25;
+  display: flex;
+  color: #FFF;
+  border-radius: 5px;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.homeNavbar .allCategories .droptbn {
+  background-color: #e65d25;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.homeNavbar .allCategories .droptbn p:first-of-type {
+  padding-left: 10px;
+}
+.homeNavbar .allCategories .droptbn p:last-of-type {
+  padding-right: 10px;
+}
+.homeNavbar .allCategories .allCategoriesContent {
+  border: 2px solid #e65d25;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  z-index: 9999;
+  padding: 20px 0 20px 10px;
+  background-color: #FFFF;
+  width: 100%;
+  top: 60px;
+  display: none;
+  color: #000;
+}
+.homeNavbar .allCategories .allCategoriesContent ul li {
+  line-height: 2;
+}
+.homeNavbar .allCategories .allCategoriesContent ul li:hover {
+  color: #e65d25;
+}
+.homeNavbar .allCategories:hover .allCategoriesContent {
+  display: block;
+}
+.homeNavbar .allCategories:hover .allCategoriesContent .droptbn {
+  width: 100%;
+}
+.homeNavbar .navbar {
+  font-weight: bold;
+}
+.homeNavbar .navbar .navbar-nav .nav-item.active .nav-link {
+  color: #e65d25;
+}
+.homeNavbar .navbar .navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+.homeNavbar .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #e65d25;
+}
+@media (max-width: 575.98px) {
+  .homeNavbar .navbar {
+    text-align: center;
+  }
+  .homeNavbar .navbar .navbar-toggler {
+    margin: auto;
+  }
+}
+@media (max-width: 767.98px) {
+  .homeNavbar .navbar {
+    text-align: center;
+  }
+  .homeNavbar .navbar .navbar-toggler {
+    margin: auto;
+  }
+}
+.homeNavbar .user {
+  display: flex;
+  height: 50px;
+  line-height: 55px;
+}
+.homeNavbar .user .profile {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.homeNavbar .user .profile:hover .homeLogin {
+  display: block;
+}
+.homeNavbar .user .profile:hover .homeLogin .droptbn {
+  width: 100%;
+}
+.homeNavbar .user .homeLogin {
+  border-top: 2px solid #e65d25;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  z-index: 9999;
+  padding: 10px 10px 20px 10px;
+  background-color: #FFFF;
+  width: 250px;
+  right: -120px;
+  top: 45px;
+  display: none;
+  color: #000;
+}
+.homeNavbar .user .homeLogin .headerlogin {
+  display: flex;
+  justify-content: space-between;
+}
+.homeNavbar .user .homeLogin .headerlogin .signin h6, .homeNavbar .user .homeLogin .headerlogin .create h6 {
+  font-size: 14px;
+  font-weight: normal;
+}
+.homeNavbar .user .homeLogin .headerlogin .create h6 {
+  color: #e65d25;
+}
+.homeNavbar .user .homeLogin form .form-group {
+  margin-bottom: 0px;
+}
+.homeNavbar .user .homeLogin form .form-group label {
+  margin-bottom: 0px;
+  font-weight: normal;
+  color: #DDD;
+}
+.homeNavbar .user .homeLogin form input[type="submit"] {
+  background-color: #e65d25;
+  color: #FFF;
+  margin-top: 30px;
+}
+.homeNavbar .user .basket {
+  margin-left: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.homeNavbar .user .basket:hover .basketempty {
+  display: block;
+}
+.homeNavbar .user .basket:hover .basketempty .droptbn {
+  width: 100%;
+}
+.homeNavbar .user .basket .count {
+  position: absolute;
+  background-color: #e65d25;
+  color: #FFF;
+  border-radius: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  left: 15px;
+  top: 5px;
+}
+.homeNavbar .user .basket .basketempty {
+  border-top: 2px solid #e65d25;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  z-index: 9999;
+  padding: 10px 10px 20px 10px;
+  background-color: #FFFF;
+  width: 240px;
+  right: -90px;
+  top: 45px;
+  display: none;
+  color: #000;
+  text-align: center;
+}
+.homeNavbar .user .basket .basketempty .Union_1 {
+  width: 28.249px;
+  height: 28.249px;
+}
+.homeNavbar .user .basket .basketempty .basketfull .header {
+  text-align: right;
+}
+.homeNavbar .user .basket .basketempty .basketfull .product .content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 0px;
+}
+.homeNavbar .user .basket .basketempty .basketfull .product .content span {
+  color: #DDD;
+}
+.homeNavbar .user .basket .basketempty .basketfull .product .remove .Union_2 {
+  width: 6px;
+  height: 6px;
+}
+.homeNavbar .user .basket .basketempty .basketfull button {
+  background-color: #e65d25;
+  color: #FFF;
+}
+@media (max-width: 575.98px) {
+  .homeNavbar .user {
+    justify-content: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .homeNavbar .user {
+    justify-content: center;
+  }
+}
+
+/* end section navbar */
+/* start section upload prescription */
+.uploadprescription {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.uploadprescription .medicines .medicine {
+  box-shadow: 0px 1px 25px #0000001a;
+  border-radius: 20px;
+  text-align: center;
+  color: #505050;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.uploadprescription .medicines .medicine h4 {
+  font-size: 16px;
+  text-align: left;
+}
+.uploadprescription .medicines .medicine p {
+  font-size: 14px;
+  text-align: left;
+}
+.uploadprescription .medicines .medicine button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #e65d25;
+  border: none;
+  border-radius: 10px;
+}
+.uploadprescription .upload {
+  margin-top: 50px;
+}
+.uploadprescription .upload h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.uploadprescription .upload #Scan {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: visible;
+  margin: auto;
+  cursor: pointer;
+}
+.uploadprescription .upload #Scan .Rectangle_140_fny {
+  position: absolute;
+  overflow: visible;
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+.uploadprescription .upload #Scan #Camera {
+  position: absolute;
+  width: 66.079px;
+  height: 41.16px;
+  left: 17.057px;
+  top: 29.736px;
+  overflow: visible;
+}
+.uploadprescription .upload #Scan #Camera .Ellipse_70 {
+  position: absolute;
+  overflow: visible;
+  width: 3.547px;
+  height: 2.053px;
+  left: 4.551px;
+  top: 3.22px;
+}
+.uploadprescription .upload #Scan #Camera .Path_360 {
+  overflow: visible;
+  position: absolute;
+  width: 39.852px;
+  height: 11.76px;
+  left: 13.066px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.uploadprescription .upload #Scan #Camera .Path_361 {
+  overflow: visible;
+  position: absolute;
+  width: 38.055px;
+  height: 3.547px;
+  left: 14.047px;
+  top: 5.18px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.uploadprescription .upload #Scan #Camera .Rectangle_141 {
+  position: absolute;
+  overflow: visible;
+  width: 5.18px;
+  height: 4.013px;
+  left: 3.732px;
+  top: 3.92px;
+}
+.uploadprescription .upload #Scan #Camera .Rectangle_142 {
+  position: absolute;
+  overflow: visible;
+  width: 66.08px;
+  height: 35.28px;
+  left: 0px;
+  top: 5.88px;
+}
+.uploadprescription .upload #Scan #Camera .Rectangle_143 {
+  position: absolute;
+  overflow: visible;
+  width: 66.08px;
+  height: 8.773px;
+  left: 0px;
+  top: 19.133px;
+}
+.uploadprescription .upload #Scan #Camera .Ellipse_71 {
+  position: absolute;
+  overflow: visible;
+  width: 32.76px;
+  height: 32.76px;
+  left: 16.66px;
+  top: 7.14px;
+}
+.uploadprescription .upload #Scan #Camera .Ellipse_72 {
+  position: absolute;
+  overflow: visible;
+  width: 30.426px;
+  height: 30.426px;
+  left: 17.826px;
+  top: 8.307px;
+}
+.uploadprescription .upload #Scan #Camera .Ellipse_73 {
+  position: absolute;
+  overflow: visible;
+  width: 23.146px;
+  height: 23.146px;
+  left: 21.467px;
+  top: 11.947px;
+}
+.uploadprescription .upload #Scan #Camera .Ellipse_74 {
+  position: absolute;
+  overflow: visible;
+  width: 2.24px;
+  height: 2.24px;
+  left: 54.785px;
+  top: 7.187px;
+}
+.uploadprescription .upload #Scan #Camera .Ellipse_75 {
+  position: absolute;
+  overflow: visible;
+  width: 2.24px;
+  height: 2.24px;
+  left: 58.146px;
+  top: 7.187px;
+}
+.uploadprescription .upload #Scan #Camera .Ellipse_76 {
+  position: absolute;
+  overflow: visible;
+  width: 2.24px;
+  height: 2.24px;
+  left: 61.506px;
+  top: 7.187px;
+}
+.uploadprescription .upload #Scan #Camera .Rectangle_144 {
+  position: absolute;
+  overflow: visible;
+  width: 7.84px;
+  height: 3.547px;
+  left: 29.072px;
+  top: 0.84px;
+}
+.uploadprescription .upload #Scan #_ {
+  position: absolute;
+  left: 76px;
+  top: 0px;
+  overflow: visible;
+  width: 15px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 24px;
+  color: #303030;
+}
+.uploadprescription .upload .Prescriptions {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.uploadprescription .upload .Prescriptions .Prescription {
+  margin-bottom: 20px;
+}
+.uploadprescription .upload .type {
+  border: 2px solid #DDD;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.uploadprescription .upload .type input {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.uploadprescription .upload .type input:last-of-type {
+  margin-bottom: 0px;
+}
+.uploadprescription .upload .notes {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.uploadprescription .upload .notes textarea {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  height: 200px;
+}
+.uploadprescription .upload input[type="submit"] {
+  border: none;
+  border-radius: 10px;
+  background-color: #e65d25;
+  color: #FFF;
+  font-weight: bold;
+  height: 70px;
+  width: 140px;
+  margin: auto;
+  display: block;
+}
+
+/* end section upload prescription */
+/* start section footer */
+.footer {
+  background-color: #efedf2;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.footer .brands {
+  padding-bottom: 50px;
+}
+.footer hr {
+  border-top-color: #DDD;
+  border-top-width: 2px;
+}
+.footer .ultmateFooter {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .ultmateFooter .about-us p {
+  color: #505050;
+}
+.footer .ultmateFooter .categories ul {
+  padding-left: 20px;
+}
+.footer .ultmateFooter .categories ul li {
+  color: #666;
+  line-height: 2;
+  cursor: pointer;
+}
+.footer .ultmateFooter .account ul {
+  padding-left: 20px;
+}
+.footer .ultmateFooter .account ul li {
+  color: #666;
+  line-height: 2;
+  cursor: pointer;
+}
+.footer .ultmateFooter .quickLinks ul {
+  padding-left: 20px;
+}
+.footer .ultmateFooter .quickLinks ul li {
+  color: #666;
+  line-height: 2;
+  cursor: pointer;
+}
+.footer .social {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .social .icon i {
+  padding-right: 20px;
+}
+.footer .social .icon i:last-of-type {
+  padding-right: 0px;
+}
+.footer .social .links ul {
+  text-align: right;
+}
+.footer .social .links ul li {
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+.footer .social .links ul li:after {
+  content: "|";
+  padding-left: 7px;
+}
+.footer .social .links ul li:last-of-type:after {
+  content: "";
+  padding-left: 0;
+}
+.footer .copyright {
+  padding-top: 50px;
+}
+
+@media (max-width: 575.98px) {
+  .footer {
+    text-align: center;
+  }
+  .footer .brands .image {
+    margin-bottom: 20px;
+  }
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+  .footer .social .links {
+    margin-top: 20px;
+  }
+  .footer .social .links ul {
+    text-align: center;
+  }
+  .footer .social .links ul li {
+    display: block;
+  }
+  .footer .social .links ul li:after {
+    content: "";
+  }
+}
+@media (max-width: 767.98px) {
+  .footer {
+    text-align: center;
+  }
+  .footer .brands .image {
+    margin-bottom: 20px;
+  }
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+  .footer .social .links {
+    margin-top: 20px;
+  }
+  .footer .social .links ul {
+    text-align: center;
+  }
+  .footer .social .links ul li {
+    display: block;
+  }
+  .footer .social .links ul li:after {
+    content: "";
+  }
+}
+@media (max-width: 991.98px) {
+  .footer {
+    text-align: center;
+  }
+  .footer .brands .image {
+    margin-bottom: 20px;
+  }
+}
+/* end section footer */
+
+/*# sourceMappingURL=uploadprescription.css.map */

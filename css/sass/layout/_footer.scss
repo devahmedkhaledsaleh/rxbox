@@ -1,0 +1,255 @@
+/* start section footer */
+
+.footer
+{
+    background-color: #efedf2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    .brands
+    {
+        padding-bottom: 50px;
+    }
+    hr
+    {
+        border-top-color: #DDD;
+        border-top-width: 2px;
+    }
+    .ultmateFooter
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .about-us
+        {
+            p
+            {
+                color: #505050;
+            }
+        }
+        
+        .categories
+        {
+            h5
+            {
+                
+            }
+            ul
+            {
+                padding-left: 20px;
+
+                li
+                {
+                    color: #666;
+                    line-height: 2;
+                    cursor: pointer;
+                }
+            }
+            
+        }
+        .account
+        {
+            h5
+            {
+                
+            }
+            ul
+            {
+                padding-left: 20px;
+
+                li
+                {
+                    color: #666;
+                    line-height: 2;
+                    cursor: pointer;
+                }
+            }
+        }
+        .quickLinks
+        {
+            h5
+            {
+                
+            }
+            ul
+            {
+                padding-left: 20px;
+
+                li
+                {
+                    color: #666;
+                    line-height: 2;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+        .promotions
+        {
+            h5
+            {
+                
+            }
+            
+            .image
+            {
+                img
+                {
+                    
+                }
+            }
+        }
+        
+    }
+    
+    .social
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .icon
+        {
+            i
+            {
+                padding-right: 20px;
+                &:last-of-type
+                {
+                    padding-right: 0px;
+                }
+            }
+        }
+        
+        .links
+        {
+            ul
+            {
+                text-align: right;
+                li
+                {
+                    display: inline-block;
+                    font-size: 12px;
+                    cursor: pointer;
+                    
+                    &:after
+                    {
+                        content: "|";
+                        padding-left: 7px;
+                    }
+                    
+                    &:last-of-type
+                    {
+                        &:after
+                        {
+                            content: "";
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright
+    {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 575.98px) 
+{
+    .footer
+    {
+        text-align: center;
+        .brands
+        {
+            .image
+            {
+                margin-bottom: 20px;
+            }
+        }
+        
+        ul
+        {
+            list-style: none;
+            padding-left: 0;
+            margin-left: 0;
+            text-align: center;
+        }
+        .social
+        {
+            .links
+            {
+                margin-top: 20px;
+                ul
+                {
+                    text-align: center;
+                    li
+                    {
+                        display: block;
+                        &:after
+                        {
+                            content: "";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) 
+{
+    .footer
+    {
+        text-align: center;
+        .brands
+        {
+            .image
+            {
+                margin-bottom: 20px;
+            }
+        }
+        
+        ul
+        {
+            list-style: none;
+            padding-left: 0;
+            margin-left: 0;
+            text-align: center;
+        }
+        .social
+        {
+            .links
+            {
+                margin-top: 20px;
+                ul
+                {
+                    text-align: center;
+                    li
+                    {
+                        display: block;
+                        &:after
+                        {
+                            content: "";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) 
+{
+    .footer
+    {
+        text-align: center;
+        .brands
+        {
+            .image
+            {
+                margin-bottom: 20px;
+            }
+        }
+        
+        
+    }
+}
+
+/* end section footer */

@@ -1,0 +1,277 @@
+/* start section header */
+
+.drugssheader
+{
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* end section header */
+
+/* start section info */
+
+.info
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .orderprescription,.reorderprescription,.medicalreminder
+    {
+        box-shadow: 0px 1px 6px #0000001a;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        @media (max-width: 575.98px) { 
+                  
+            img
+            {
+                width: 100%;
+            }
+
+        }
+        .title
+        {
+            padding: 15px;
+        }
+    }
+}
+
+
+/* end section info */
+
+/* start section drugs */
+
+.drugs
+{
+    .sidebar
+    {
+        .doctorscategories
+        {
+            
+            ul
+            {
+                border: 2px solid $mainColor;
+                border-radius: 20px;
+                padding-left: 0px;
+                list-style: none;
+                
+                li
+                {
+                    border-bottom: 1px solid #DDD;
+                    padding: 20px;
+                    cursor: pointer;
+                    &:last-of-type
+                    {
+                        border-bottom: none;
+                    }
+                    p
+                    {
+                        &:first-of-type
+                        {
+                            float: left;
+                        }
+                        
+                        &:last-of-type
+                        {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+        .fillter
+        {
+            h4
+            {
+                
+            }
+            input
+            {
+                
+            }
+            p
+            {
+                span
+                {
+                    color: $mainColor;
+                }
+            }
+        }
+        .averagerating
+        {
+            h4
+            {
+                
+            }
+            .form-group
+            {
+                display: flex;
+                justify-content: space-between;
+                align-content: space-between;
+                input
+                {
+                    &[type="checkbox"]
+                    {
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+                .star
+                {
+                    i
+                    {
+                        color: #f5f5f5;
+                        &.active
+                        {
+                            color: #fcce35;
+                        }
+                    }
+                }
+                p
+                {
+                    
+                }
+            }
+        }
+    }
+    .drugscontent
+    {
+        .sorting
+        {
+            text-align: right;
+            select
+            {
+                height: calc(1.5em + .75rem + 2px);
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: .25rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+        }
+        
+        .product
+            {
+                border: 1px solid #f5f5f5;
+                padding: 20px;
+                margin-bottom: 30px;
+                .title
+                {
+                    color: #ACACAC;
+                }
+                
+                .desc
+                {
+                    color: #434343;
+                }
+                
+                .image
+                {
+                    img
+                    {
+                        
+                    }
+                }
+                
+                hr
+                {
+                    border-top-color: #f5f5f5;
+                }
+                
+                .content
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    .review
+                    {
+                        .star
+                        {
+                            margin-bottom: 5px;
+                            i
+                            {
+                                color: #fcce35;
+                            }
+                        }
+                        .salary
+                        {
+                            color: $mainColor;
+                            p
+                            {
+                                span
+                                {
+                                    font-weight: bold;
+                                    margin-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .cart
+                    {
+                        div
+                        {
+                            border: 1px solid #f5f5f5;
+                            padding: 5px;
+                            cursor: pointer;
+                            img
+                            {
+                                
+                            }
+                        }
+                    }
+                }
+                
+                
+            }
+        
+        .controls
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            .pagination
+            {
+                display: flex;
+                ul
+                {
+                    display: flex;            
+                    li
+                    {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background-color: #f5f5f5;
+                        text-align: center;
+                        line-height: 50px;
+                        margin-left: 10px;
+                        cursor: pointer;
+                        transition: all 0.1s ease-in-out;
+                        &.active
+                        {
+                            background-color: $mainColor;
+                            color: #FFF;
+                        }
+                        &:hover
+                        {
+                            background-color: $mainColor;
+                            color: #FFF;
+                        }
+                        &:first-of-type
+                        {
+                            margin-left: 0;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* end section doctors */

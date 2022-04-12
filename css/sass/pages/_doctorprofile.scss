@@ -1,0 +1,258 @@
+/* start section iconuser */
+    
+.iconuser
+{
+    text-align: right;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    .icons
+    {
+        i
+        {
+            color: #707070;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* end section iconuser */
+
+/*  start section product slider  */
+
+.doctorprofile
+{
+    .image
+    {
+        img
+        {
+            
+        }
+    }
+    
+    .info
+    {
+        h3
+        {
+            
+        }
+        
+        p
+        {
+            color: #78849E;
+        }
+        .star
+        {
+            i
+            {
+                color: #acacac;
+                font-size: 32px;
+                &.active
+                {
+                    color: #fcce35;
+                }
+            }
+        }
+        button
+        {
+            width: 250px;
+            height: 50px;
+            background-color: $mainColor;
+            color: #FFF;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+    }
+    
+    .count
+    {
+        display: flex;
+        justify-content: space-around;
+        .likes
+        {
+            p
+            {
+                font-weight: bold;
+                line-height: 3;
+            }
+        }
+        .appoints
+        {
+            p
+            {
+                font-weight: bold;
+                line-height: 3;
+            }
+        }
+        .suggested
+        {
+            p
+            {
+                font-weight: bold;
+                line-height: 3;
+            }
+        }
+        .colum
+        {
+            border-left: 2px solid #DDD;
+        }
+    }
+    
+    .about
+    {
+        h5
+        {
+            
+        }
+        p
+        {
+            color: #A0A0A0
+        }
+        
+        ul
+        {
+            li
+            {
+                margin-bottom: 30px;
+                color: $mainColor;
+                .pin
+                {
+                    width: 30px;
+                    height: 45px;
+                }
+                
+                .smartphone001___E108
+                {
+                    width: 30px;
+                    height: 45px;
+                }
+                
+                .calendar_dvh
+                {
+                    width: 45px;
+                    height: 45px;
+                }
+                .clock_dvk
+                {
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+        }
+    }
+    
+    .populardoctors
+    {
+        .person
+        {
+            box-shadow: 0px 1px 25px #0000001a;
+            border-radius: 20px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+            .img
+            {
+                overflow: hidden;
+                img
+                {
+                    width: 100%;
+                }
+            }
+
+            .content
+            {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 15px 5px 15px;
+                .name
+                {
+                    color: #505050;
+                }
+
+                .rate
+                {
+                    .star
+                    {
+                        i
+                        {
+                            color: #acacac;
+                            &.active
+                            {
+                                color: $mainColor;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .desc
+            {
+                padding: 15px;
+                text-align: center;
+            }
+
+            .view
+            {
+                padding: 20px;
+                button
+                {
+                    background-color: $mainColor;
+                    color: #FFF;
+                }
+            }
+
+            .date
+            {
+                padding: 20px;
+                border-top: 1px solid #ACACAC;
+                display: flex;
+                justify-content: space-between;
+                .calenderdiv
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    .calendar
+                    {
+                        width: 22.338px;
+                        height: 22.338px;
+                        margin-right: 10px;
+                    }
+                    p
+                    {
+                        font-size: 12px;
+                    }
+                }
+
+                .hr
+                {
+                    width: 1px;
+                    background-color: #ACACAC;
+                    height: 50px;
+                    position: relative;
+                    top: -20px;
+                }
+
+                .clockdiv
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    .clock
+                    {
+                        width: 22.338px;
+                        height: 22.338px;
+                        margin-right: 10px;
+                    }
+                    p
+                    {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*  end section product slider  */

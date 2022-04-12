@@ -1,0 +1,226 @@
+/* start section book header */
+
+.bookheader
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .info
+    {
+        display: flex;
+        .image
+        {
+            margin-right: 20px;
+        }
+        .details
+        {
+            ul
+            {
+                li
+                {
+                    font-size: 20px;
+                    &:first-of-type
+                    {
+                        color: #454F63;
+                        font-weight: normal;
+                    }
+                    
+                    color: #78849E;
+                    font-weight: bold;
+                    line-height: 1.5;
+                    i
+                    {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* end section book header */
+
+
+/* start section form */
+
+.bookform
+{
+    text-align: center;
+    h3
+    {
+        margin-bottom: 30px;
+    }
+    input
+    {
+        &[type="text"]
+        {
+            height: 70px;
+            margin: auto;
+        }
+    }
+    
+    .whopatient
+    {
+        h3
+        {
+            margin-top: 30px;
+        }
+        
+        .upload
+        {
+            width: 207px;
+            height: 256px;
+            background-color: rgba($mainColor,0.6);
+            border-radius: 20px;
+            padding-top: 100px;
+            color: #FFF;
+            border-style: dashed;
+            border-width: 3px;
+            border-color: #000;
+            margin: auto;
+        }
+        
+        .person
+        {
+            .image
+            {
+                p
+                {
+                    font-weight: bold;
+                    margin-top: 20px;
+                    color: #707070;
+                }
+                
+            }
+        }
+    }
+    
+    .date
+    {
+        h3
+        {
+            margin-top: 20px;
+        }
+        p
+        {
+            background-color: #f3f3f3;
+            border-radius: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        
+        .pagination
+        {
+            display: flex;
+            justify-content: center;
+            ul
+            {
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+                li
+                {
+                    cursor: pointer;
+                    margin-right: 10px;
+                    &:first-of-type
+                    {
+                        padding-top: 20px;
+                    }
+                    
+                    &:last-of-type
+                    {
+                        padding-top: 20px;
+                    }
+                    
+                    span
+                    {
+                        display: inline-block;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 15px;
+                        line-height: 60px;
+                        background-color: rgba($mainColor, 0.5);
+                        &.active
+                        {
+                            background-color: $mainColor;
+                            color: #FFF;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .time
+    {
+        h3
+        {
+            margin-top: 20px;
+        }
+        
+        .first
+        {
+            
+            
+            
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            div
+            {
+                
+                button
+                {
+                    width: 250px;
+                    height: 80px;
+                    background-color: transparent;
+                    border: 2px solid #DDD;
+                    border-radius: 10px;
+                    font-size: 27px;
+                    &.active,
+                    &:hover
+                    {
+                        background-color: $mainColor;
+                        color: #FFF;
+                        border-color: $mainColor;
+                    }
+                    &.disable
+                    {
+                        opacity: 0.5;
+                    }
+                    @media (max-width: 575.98px) { 
+                  
+                        width: 125px;
+
+                    }
+                    
+                    @media (max-width: 767.98px) {
+                        width: 150px;
+                    }
+                    
+                    @media (max-width: 991.98px) {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .booknow
+    {
+        margin-bottom: 30px;
+        input
+        {
+            text-align: center;
+            width: 200px;
+            height: 50px;
+            background-color: $mainColor;
+            color: #FFF;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+}
+
+/* end section form */

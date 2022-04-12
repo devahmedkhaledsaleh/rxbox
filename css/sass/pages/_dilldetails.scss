@@ -1,0 +1,139 @@
+/* start section header */
+
+.dilldetailsheader
+{
+    box-shadow: -1px -1px 3px #00000029,
+                0px 0px 3px #00000029;
+    .title
+    {
+        h3
+        {
+            margin-top: 20px;
+        }
+        .date
+        {
+            display: flex;
+            h5
+            {
+                margin-right: 40px;
+            }
+            p
+            {
+                font-weight: bold;
+                color: $mainColor;
+            }
+        }
+        
+        .number
+        {
+            display: flex;
+            h5
+            {
+                margin-right: 40px;
+            }
+            p
+            {
+                font-weight: bold;
+                &:first-of-type
+                {
+                    margin-right: 40px;
+                    color: $mainColor;
+                }
+                &:last-of-type
+                {
+                    color: #88C240;
+                }
+            }
+        }
+    }
+}
+
+
+/* end section header */
+
+/* start section dill details */
+
+
+.dilldetails
+{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    .items
+    {
+        thead
+        {
+            tr
+            {
+                td
+                {
+                    font-weight: bold;
+                }
+            }
+        }
+        tr
+        {
+            td
+            {
+                padding: 15px;
+                &:first-of-type
+                {
+                    width: 150px;
+                }
+                &:nth-of-type(2)
+                {
+                    width: 800px;
+                }
+                &:last-of-type
+                {
+                    width: 150px;
+                    text-align: right;
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+    
+    .price
+    {
+        .sub-total,.delivery,.tax,.total
+        {
+            p
+            {
+                &:first-of-type
+                {
+                    font-weight: bold;
+                    float: left;
+                }
+                &:last-of-type
+                {
+                    text-align: right;
+                }
+            }
+        }
+    }
+    
+    .pay
+    {
+        .payment,.delivery
+        {
+            p
+            {
+                &:first-of-type
+                {
+                    font-weight: bold;
+                    float: left;
+                }
+                &:last-of-type
+                {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* end section dill details */

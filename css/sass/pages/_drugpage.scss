@@ -1,0 +1,205 @@
+/* start section iconuser */
+    
+.iconuser
+{
+    text-align: right;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    .icons
+    {
+        i
+        {
+            color: #707070;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* end section iconuser */
+
+/*  start section product slider  */
+
+.product
+{
+    .productimage
+    {
+        width: 400px;
+        margin: auto;
+        .carousel
+        {
+            .carousel-inner
+            {
+                .carousel-item
+                {
+                    img
+                    {
+
+                    }
+                }
+            }
+        }
+
+        .carousel-indicators
+        {
+            position: static;
+            li
+            {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: #f8d6c8;
+                &.active
+                {
+                    background-color: $mainColor;   
+                }
+            }
+        }
+        .productcontent
+        {
+            h3
+            {
+                color: $mainColor;
+                font-weight: bold;
+            }
+            
+            .salesallary
+            {
+                color: $mainColor;
+                font-weight: bold;
+            }
+            
+            .oldsalallary
+            {
+                color: #ACACAC;
+                font-weight: bold;
+            }
+            
+            .rate
+            {
+                padding-bottom: 30px;
+                padding-top: 50px;
+                .star
+                {
+                    margin-right: 30px;
+                    i
+                    {
+                        color: #ACACAC;
+                    }
+                    .active
+                    {
+                        color: $mainColor;
+                    }
+                    
+                    
+                }
+                
+                .ratenow
+                {
+                    color: #ACACAC;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    
+    .description
+    {
+        width: 800px;
+        margin: auto;
+        text-align: center;
+        hr
+        {
+            border-top: 2px solid $mainColor;
+        }
+        p.lead
+        {
+            font-weight: bold;
+            color: #707070;
+        }
+        
+        .icons
+        {
+            padding-bottom: 50px;
+            padding-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            .safeshopping
+            {
+                width: 40%;
+                .circle
+                {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    background-color: rgba($mainColor,0.6);
+                    margin: auto;
+                }
+                h4
+                {
+                    margin-top: 30px;
+                }
+                p
+                {
+                    margin-top: 30px;
+                }
+            }
+            
+            .fastdelivery
+            {
+                width: 40%;
+                .circle
+                {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    background-color: rgba($mainColor,0.6);
+                    margin: auto;
+                }
+                h4
+                {
+                    margin-top: 30px;
+                }
+                p
+                {
+                    margin-top: 30px;
+                }
+            }
+            
+            
+        }
+        
+        
+    }
+    
+    @media (max-width: 991.98px) { 
+        .description
+        {
+            width: 600px;
+        }
+    }
+    
+    @media (max-width: 767.98px) { 
+        .description
+        {
+            width: 400px;
+        }
+    }
+    
+    @media (max-width: 575.98px) { 
+        .description
+        {
+            .icons
+            {
+                
+            }
+        }
+    }
+    
+        
+    
+}
+
+
+/*  end section product slider  */
